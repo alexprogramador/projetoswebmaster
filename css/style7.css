@@ -1,0 +1,20 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+}
+
+.box{
+	width: 100vw;/*Viewport width = Largura do navegador viewport - OBS: Não Leva em conta a scrollbar;*/
+	height: 100vh;/*Viewport height = Altura do navegador viewport - OBS: Não Leva em conta a scrollbar;*/
+	background-color: red;
+}
+.box2{
+	width: 200%;
+	height: 10px;
+
+}
